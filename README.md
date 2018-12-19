@@ -17,9 +17,12 @@ There are 4 files in this directory.
 
 QUICK START GUIDE:
 
-Read through the Gmail Inbox Analysis notebook to gain an understanding of the overall program. Download the Project Coding Script to a directory on your PC. Using a python interpreter shell run the script inputting information when prompted. 
+Read through the Gmail Inbox Analysis notebook to gain an understanding of the overall program. 
 
-Prompted information includes a Gmail user name, the corresponding Gmail password, the number of emails to analyze starting with the latest email in the inbox and descending according to the number supplied, and the number of days to be analyzed starting with today and descending in day increments. 
+!~IMPORTANT~! 
+The Gmail acccount used must be enabled to read messages using POP (instructions can be found here: https://support.google.com/mail/answer/7104828?hl=en&visit_id=636808522585272580-1177844093&rd=2) and the account setting must be configured to allow less secure apps to access (instruction can be found here: https://support.google.com/accounts/answer/6010255?hl=en)
+
+Download the Project Coding Script to a directory on your PC. Using a python interpreter shell run the script inputting information when prompted. Prompted information includes a Gmail user name, the corresponding Gmail password, the number of emails to analyze starting with the latest email in the inbox and descending according to the number supplied, and the number of days to be analyzed starting with today and descending in day increments. 
 
 The program should result in a results summary displayed in the console and a CSV file listing the date, sender, and subject of qualifying emails. Refer to the Result Examples folder to visualize example output. 
 
